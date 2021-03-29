@@ -229,7 +229,7 @@ button, .button {
     /* line 244, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .navbar-collapse {
       text-align: right;
-      background: #191018;
+      background: #8D2A48;
       padding: 32px;
       font-size: 20px;
       width: 100%;
@@ -319,13 +319,13 @@ form button {
   padding-top: 70px; }
   /* line 390, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   .container .row {
-    min-height: 50vh;
+    min-height: 60vh;
     display: flex;
     align-items: center; }
     @media screen and (max-width: 768px) {
       /* line 390, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
       .container .row {
-        min-height: 60vh; } }
+        min-height: 70vh; } }
     /* line 399, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .container .row#contact {
       height: 100vh; }
@@ -373,7 +373,7 @@ form button {
 @media screen and (max-width: 768px) {
   /* line 458, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   .section {
-    margin-bottom: 20%; } }
+    margin: 20% 0; } }
 
 /* line 464, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .buttonWrapper {
@@ -421,13 +421,12 @@ form button {
     /* line 464, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .buttonWrapper {
       flex-direction: column;
-      justify-content: center;
       align-items: center; }
-      /* line 520, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
-      .buttonWrapper .image {
-        margin: 0 0 70px; } }
+      /* line 519, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+      .buttonWrapper .book {
+        margin: 0 0 80px; } }
 
-/* line 526, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 525, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 #grain {
   z-index: -2;
   content: "";
