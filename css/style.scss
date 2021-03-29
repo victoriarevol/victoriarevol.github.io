@@ -388,7 +388,7 @@ form {
     padding-top: 70px;
     
     .row {
-        min-height: 60vh;
+        min-height: 80vh;
         display: flex;
         align-items: center;
         
@@ -406,6 +406,8 @@ form {
         }
         
         &.triggers {
+            min-height: 40vh;
+             
             .trigger-item {
                 display: flex;
                 flex-direction: column;
