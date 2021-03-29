@@ -161,34 +161,40 @@ button, .button {
   background: transparent;
   /* make scrollbar transparent */ }
 
+/* line 187, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+.profile {
+  width: 180px;
+  margin-bottom: 16px;
+  border-radius: 16px; }
+
 /*NAV*/
-/* line 189, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 194, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .navbar {
   justify-content: flex-end;
   padding: 16px; }
   @media screen and (max-width: 990px) {
-    /* line 189, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 194, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .navbar {
       padding: 16px; } }
 
-/* line 201, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 206, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .navbar .navbar-toggler {
   color: #FAFAFA;
   border: none; }
   @media screen and (max-width: 990px) {
-    /* line 201, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 206, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .navbar .navbar-toggler {
       background-color: transparent; } }
 
-/* line 212, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 217, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .navbar .navbar-nav .nav-link {
   font-weight: 400; }
 
-/* line 217, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 222, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .navbar .navbar-nav .active > .nav-link, .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show, .navbar .navbar-nav .show > .nav-link {
   font-weight: 700; }
 
-/* line 222, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 227, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .navbar .navbar-nav .nav-link:hover {
   color: #8D2A48;
   -webkit-transition: all 250ms ease-out;
@@ -196,7 +202,7 @@ button, .button {
   -o-transition: all 250ms ease-out;
   transition: all 250ms ease-out; }
 
-/* line 231, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 236, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .nav-link:focus {
   border-radius: 4px;
   box-shadow: rgba(89, 34, 51, 0.3) 0px 0px 0px 4px;
@@ -206,27 +212,27 @@ button, .button {
   -o-transition: all 300ms ease-out;
   transition: all 300ms ease-out; }
 
-/* line 244, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 249, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .navbar-collapse {
   justify-content: flex-end; }
-  /* line 247, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+  /* line 252, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   .navbar-collapse .navbar-nav {
     display: flex;
     align-items: center; }
-    /* line 251, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 256, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .navbar-collapse .navbar-nav li {
       padding: 0 10px;
       margin-bottom: 0; }
-      /* line 255, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+      /* line 260, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
       .navbar-collapse .navbar-nav li a {
         font-size: 16px; }
-      /* line 259, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+      /* line 264, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
       .navbar-collapse .navbar-nav li.social {
         height: 40px;
         display: flex;
         align-items: center; }
   @media screen and (max-width: 990px) {
-    /* line 244, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 249, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .navbar-collapse {
       text-align: right;
       background: #8D2A48;
@@ -236,22 +242,22 @@ button, .button {
       position: absolute;
       top: 64px;
       right: 0; }
-      /* line 278, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+      /* line 283, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
       .navbar-collapse .navbar-nav li {
         padding: 5% 0; }
-        /* line 281, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+        /* line 286, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
         .navbar-collapse .navbar-nav li a {
           color: #FAFAFA !important;
           font-size: 18px; }
-        /* line 286, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+        /* line 291, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
         .navbar-collapse .navbar-nav li.social {
           height: 60px; } }
 
 /*SOCIAL*/
-/* line 296, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 301, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .social a {
   height: 20px; }
-  /* line 299, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+  /* line 304, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   .social a:focus {
     border-radius: 4px;
     box-shadow: rgba(89, 34, 51, 0.3) 0px 0px 0px 4px;
@@ -260,15 +266,15 @@ button, .button {
     -moz-transition: all 300ms ease-out;
     -o-transition: all 300ms ease-out;
     transition: all 300ms ease-out; }
-  /* line 311, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+  /* line 316, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   .social a.insta:focus {
     border-radius: 6px; }
 
-/* line 317, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 322, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .social .icon {
   width: 20px;
   height: auto; }
-  /* line 321, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+  /* line 326, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   .social .icon:hover {
     fill: #8D2A48;
     -webkit-transition: all 250ms ease-out;
@@ -276,27 +282,28 @@ button, .button {
     -o-transition: all 250ms ease-out;
     transition: all 250ms ease-out; }
 
-/* line 344, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 349, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 a.icon-link {
   display: contents; }
 
 /*FORM*/
-/* line 350, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 355, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 form label {
   display: flex;
   flex-direction: column;
   width: 100%;
   color: #FAFAFA;
   letter-spacing: .05em; }
-  /* line 357, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+  /* line 362, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   form label input, form label textarea {
     background: none;
+    color: #FAFAFA;
     border: 1px solid #FAFAFA;
     border-radius: 4px;
     height: 40px;
     margin-top: 3px;
     padding: 1px 8px; }
-    /* line 365, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 371, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     form label input:focus, form label input:active, form label textarea:focus, form label textarea:active {
       border: 1px solid #8D2A48;
       box-shadow: rgba(89, 34, 51, 0.3) 0px 0px 0px 4px;
@@ -305,89 +312,89 @@ form label {
       -moz-transition: all 300ms ease-out;
       -o-transition: all 300ms ease-out;
       transition: all 300ms ease-out; }
-  /* line 376, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+  /* line 382, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   form label textarea {
     height: 80px; }
 
-/* line 381, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 387, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 form button {
   margin: 16px 0 16px; }
 
 /* BODY - Background */
-/* line 387, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 393, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .container {
   padding-top: 70px; }
-  /* line 390, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+  /* line 396, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   .container .row {
     min-height: 80vh;
     display: flex;
     align-items: center; }
     @media screen and (max-width: 768px) {
-      /* line 390, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+      /* line 396, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
       .container .row {
         min-height: 70vh; } }
-    /* line 399, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 405, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .container .row#contact {
       height: 100vh; }
       @media screen and (max-width: 768px) {
-        /* line 399, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+        /* line 405, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
         .container .row#contact {
           height: auto;
           margin-bottom: 5vh; } }
-    /* line 408, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 414, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .container .row.triggers {
       min-height: 40vh; }
       @media screen and (max-width: 768px) {
-        /* line 408, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+        /* line 414, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
         .container .row.triggers {
           min-height: 70vh; } }
-      /* line 415, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+      /* line 421, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
       .container .row.triggers .trigger-item {
         display: flex;
         flex-direction: column;
         align-items: center; }
-        /* line 420, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+        /* line 426, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
         .container .row.triggers .trigger-item img {
           width: 100px;
           height: auto;
           margin-bottom: 32px; }
-        /* line 426, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+        /* line 432, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
         .container .row.triggers .trigger-item a {
           letter-spacing: .05em;
           font-size: 21px; }
           @media screen and (max-width: 768px) {
-            /* line 426, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+            /* line 432, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
             .container .row.triggers .trigger-item a {
               text-align: center; } }
-        /* line 435, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+        /* line 441, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
         .container .row.triggers .trigger-item .brief {
           color: #FAFAFA;
           font-size: 18px;
           margin-top: 8px;
           opacity: .3; }
-    /* line 445, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 451, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .container .row#libros h1, .container .row#libros p {
       text-align: center; }
-  /* line 452, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+  /* line 458, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   .container.video .row {
     margin-bottom: 10vh;
     height: auto; }
-    /* line 456, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 462, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .container.video .row iframe {
       width: 100%;
       height: 360px; }
 
 @media screen and (max-width: 768px) {
-  /* line 464, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+  /* line 470, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   .section {
     margin: 30% 0; } }
 
-/* line 470, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 476, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 .buttonWrapper {
   margin-top: 40px;
   display: flex;
   justify-content: space-between; }
-  /* line 475, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+  /* line 481, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
   .buttonWrapper .book {
     width: 200px !important;
     height: 200px;
@@ -396,7 +403,7 @@ form button {
     position: relative;
     border: 2px solid #FAFAFA;
     border-radius: 8px; }
-    /* line 484, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 490, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .buttonWrapper .book:after {
       position: absolute;
       bottom: -32px;
@@ -404,19 +411,19 @@ form button {
       text-align: center;
       font-size: 18px;
       letter-spacing: .05em; }
-    /* line 493, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 499, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .buttonWrapper .book.attraversiamo {
       background-image: url("/assets/Attraversiamo.jpg"); }
-      /* line 496, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+      /* line 502, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
       .buttonWrapper .book.attraversiamo:after {
         content: 'Comprar'; }
-    /* line 501, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 507, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .buttonWrapper .book.cartas {
       background-image: url("/assets/CartasAMarta.jpg"); }
-      /* line 504, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+      /* line 510, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
       .buttonWrapper .book.cartas:after {
         content: 'Preventa'; }
-    /* line 509, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 515, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .buttonWrapper .book:hover {
       box-shadow: rgba(146, 27, 64, 0.6) 0px 0px 0px 4px;
       outline: 0px;
@@ -425,15 +432,15 @@ form button {
       -o-transition: all 300ms ease-out;
       transition: all 300ms ease-out; }
   @media screen and (max-width: 768px) {
-    /* line 470, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+    /* line 476, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .buttonWrapper {
       flex-direction: column;
       align-items: center; }
-      /* line 525, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+      /* line 531, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
       .buttonWrapper .book {
         margin: 0 0 80px; } }
 
-/* line 531, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
+/* line 537, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
 #grain {
   z-index: -2;
   content: "";

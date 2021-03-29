@@ -184,6 +184,11 @@ button, .button {
     background: transparent; /* make scrollbar transparent */
 }
 
+.profile {
+    width: 180px;
+    margin-bottom: 16px;
+    border-radius: 16px;
+}
 
 /*NAV*/
 .navbar {
@@ -356,6 +361,7 @@ form {
         
         input, textarea {
             background: none;
+            color: $color-white;
             border: 1px solid $color-white;
             border-radius: 4px;
             height: 40px;
