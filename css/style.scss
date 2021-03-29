@@ -193,9 +193,13 @@ button, .button {
 }
 
 .profile {
-    width: 180px;
+    width: 220px;
     margin-bottom: 16px;
     border-radius: 16px;
+    
+    @media screen and (max-width: 768px) {
+        width: 180px;   
+    }
 }
 
 /*NAV*/
