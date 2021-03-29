@@ -353,7 +353,7 @@ form button {
           .container .row.triggers .trigger-item a {
             text-align: center; } }
       /* line 429, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
-      .container .row.triggers .trigger-item span {
+      .container .row.triggers .trigger-item .brief {
         color: #FAFAFA;
         font-size: 18px;
         margin-top: 8px;
