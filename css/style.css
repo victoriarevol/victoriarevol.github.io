@@ -432,7 +432,7 @@ form button {
       background-image: url("/assets/CartasAMarta.jpg"); }
       /* line 526, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
       .buttonWrapper .book.cartas:after {
-        content: 'Preventa'; }
+        content: 'Comprar'; }
     /* line 531, /Users/juanmanuelynz/Creative Cloud Files/VictoriaRevol/victoriarevol.github.io/css/style.scss */
     .buttonWrapper .book:hover {
       box-shadow: rgba(146, 27, 64, 0.6) 0px 0px 0px 4px;
